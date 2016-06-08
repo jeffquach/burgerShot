@@ -1,5 +1,21 @@
 @font-face { font-family: Yikes; src: url('YIKES!__.TTF'); }
-
+html,
+body {
+   margin:0;
+   padding:0;
+   /*height:100%;*/
+   background: #AFE4FF;
+}
+#container {
+   /*min-height:100%;
+   position:relative;*/
+}
+#bottomSection {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:25em;   /* Height of the footer */
+}
 h1 {
 	font-family: Yikes;
 	font-size: 9em;
@@ -10,41 +26,45 @@ h1 {
 	0 -3px 0 #2D5A66,
 	 2px 9px 0 #2D5A66;
 	text-align:center;
-	margin:0.35em;
-} 
-
-body {
-	background: #AFE4FF;
-	margin:0;
+	margin:0.3em;
 }
 
 .cloudsTop {
-	position:absolute;
-	height:9.3em;
+	position: absolute;
+	height:3.5em;
 	width:100%;
+	top:-3em;
 	background-image: url('cloudsTop.png');
 	background-repeat: repeat-x;
 }
 .cloudsBottom {
-	position:relative;
-	top:3em;
-	height:20em;
-	width:100%;
+	position: relative;
+	top:5em;
+	height:50em;
 	background-image: url('cloudsBottom.png');
 	background-repeat: repeat-x;
 }
 .grassTop {
-	position:absolute;
-	height:2em;
-	bottom:2.5em;
-	width:100%;
-	background-image: url('grassTop.png');
-	background-repeat: repeat-x;
+	height: 3em;
+    bottom: 17em;
+    position: absolute;
+    width: 100%;
+    background-image: url('grassTop.png');
+    background-repeat: repeat-x;
 }
 .grassBottom {
+	height: 18em;
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    background-image: url('grassBottom2.png');
+    background-repeat: repeat-x;
+}
+.grassTile {
 	position:absolute;
-	height:16em;
+	height:70px;
 	width:100%;
-	background-image: url('grassBottom.png');
+	bottom:0;
+	background-image: url('grassTile.png');
 	background-repeat: repeat-x;
 }
