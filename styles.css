@@ -10,6 +10,7 @@ h1 {
 	0 -3px 0 #2D5A66,
 	 2px 9px 0 #2D5A66;
 	text-align:center;
+	margin:0.35em;
 } 
 
 body {
@@ -30,5 +31,20 @@ body {
 	height:20em;
 	width:100%;
 	background-image: url('cloudsBottom.png');
+	background-repeat: repeat-x;
+}
+.grassTop {
+	position:absolute;
+	height:2em;
+	bottom:2.5em;
+	width:100%;
+	background-image: url('grassTop.png');
+	background-repeat: repeat-x;
+}
+.grassBottom {
+	position:absolute;
+	height:16em;
+	width:100%;
+	background-image: url('grassBottom.png');
 	background-repeat: repeat-x;
 }
