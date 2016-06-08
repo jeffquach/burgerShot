@@ -1,0 +1,34 @@
+@font-face { font-family: Yikes; src: url('YIKES!__.TTF'); }
+
+h1 {
+	font-family: Yikes;
+	font-size: 9em;
+	color: white;
+	text-shadow:
+	-2px -1px 0 #2D5A66,  
+	2px -1px 0 #2D5A66,
+	0 -3px 0 #2D5A66,
+	 2px 9px 0 #2D5A66;
+	text-align:center;
+} 
+
+body {
+	background: #AFE4FF;
+	margin:0;
+}
+
+.cloudsTop {
+	position:absolute;
+	height:9.3em;
+	width:100%;
+	background-image: url('cloudsTop.png');
+	background-repeat: repeat-x;
+}
+.cloudsBottom {
+	position:relative;
+	top:3em;
+	height:20em;
+	width:100%;
+	background-image: url('cloudsBottom.png');
+	background-repeat: repeat-x;
+}
