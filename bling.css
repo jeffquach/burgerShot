@@ -29,5 +29,6 @@ body {
 .douglas{
    position:fixed;
    left:0px;
+   display:flex;
    bottom:0px;
 }
