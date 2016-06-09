@@ -9,10 +9,40 @@ h1 {
    font-family: Yikes;
    font-size: 9em;
    color: white;
-text-shadow:
-    2px 4px 0 #2D5A66;
+   text-shadow:
+    -1px -1px 0 #2D5A66,  
+    1px -1px 0 #2D5A66,
+    -1px 1px 0 #2D5A66,
+    1px 1px 0 #2D5A66,
+    1px 6px 0 #2D5A66;
    text-align:center;
-   margin:0.3em;
+   margin:0.5em;
+}
+h2 {
+   font-family: Yikes;
+   font-size: 4em;
+   color: white;
+   text-shadow:
+   -0.7px -0.7px 0 #2D5A66,  
+    0.7px -0.7px 0 #2D5A66,
+    -0.7px 0.7px 0 #2D5A66,
+    0.7px 0.7px 0 #2D5A66,
+    0 4px 0 #2D5A66;
+   text-align:center;
+   margin:0.2em;
+}
+
+p{
+   font-family: Yikes;
+   font-size: 2em;
+   color: white;
+   text-shadow:
+   -0.7px -0.7px 0 #2D5A66,  
+    0.7px -0.7px 0 #2D5A66,
+    -0.7px 0.7px 0 #2D5A66,
+    0.7px 0.7px 0 #2D5A66,
+    0 3px 0 #2D5A66;
+   text-align:center;	
 }
 
 body {
@@ -26,10 +56,42 @@ body {
   text-align:center;
 }
 
+#info{
+	position:relative;
+	z-index:8;
+	width:80em;
+	margin: 0 auto;
+}
+
+.main-game-image {
+	width:38em;
+}
+
+.container-max{
+	width: 100%;
+	padding:0 1.5em 0 1.5em;
+}
+
+.container2{
+	float:left;
+	width:46%;
+	padding:1em;
+}
+.container2-mini{
+	float:left;
+	width:43%;
+	padding:1em;
+}
+
+.app-store-image{
+	width:85%;
+}
+
 #footer { height: 100%; }
 #footer-image{
    position:fixed;
    left:0px;
    display:flex;
    bottom:0px;
+   z-index:1;
 }
