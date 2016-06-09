@@ -29,6 +29,10 @@ h1 {
 	margin:0.3em;
 }
 
+#background-image{
+	background-image: url('backgroundImage.png');
+}
+
 .cloudsTop {
 	position: absolute;
 	height:3.5em;
