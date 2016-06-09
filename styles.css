@@ -97,8 +97,21 @@ body {
 .app-store-image{
 	width:85%;
 }
+.transparent-background{
+ 	background-color:rgba(45, 90, 102, 0.6);
+ 	border-radius: 2em;
+ 	/*border: 1em solid rgba(45, 90, 102, 0.7);*/
+ 	border: 0.3em solid rgb(127, 0, 0);
+    border: 0.3em solid rgba(45, 90, 102, 0.65);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    overflow:hidden;
+}
 
-#main-tingz { height: 100%; }
+#main-tingz { 
+	height: 100%; 
+	margin-bottom:2em;
+}
 #footer{
    position:fixed;
    left:0px;
@@ -119,7 +132,7 @@ body {
 		margin:0 auto;
 	}
 	.main-game-image {
-		width:30em;
+		width:100%;
 	}
 	.container2-mini{
 		float:left;
