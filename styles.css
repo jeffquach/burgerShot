@@ -1,74 +1,35 @@
-@font-face { font-family: Yikes; src: url('YIKES!__.TTF'); }
 html,
 body {
    margin:0;
    padding:0;
-   /*height:100%;*/
+   height:100%;
    background: #AFE4FF;
 }
-#container {
-   /*min-height:100%;
-   position:relative;*/
-}
-#bottomSection {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:25em;   /* Height of the footer */
-}
 h1 {
-	font-family: Yikes;
-	font-size: 9em;
-	color: white;
-	text-shadow:
-	-2px -1px 0 #2D5A66,  
-	2px -1px 0 #2D5A66,
-	0 -3px 0 #2D5A66,
-	 2px 9px 0 #2D5A66;
-	text-align:center;
-	margin:0.3em;
+   font-family: Yikes;
+   font-size: 9em;
+   color: white;
+text-shadow:
+    2px 4px 0 #2D5A66;
+   text-align:center;
+   margin:0.3em;
 }
 
-#background-image{
-	background-image: url('backgroundImage.png');
+body {
+  display: table;
+  width: 100%;
 }
 
-.cloudsTop {
-	position: absolute;
-	height:3.5em;
-	width:100%;
-	top:-3em;
-	background-image: url('cloudsTop.png');
-	background-repeat: repeat-x;
+#header-title {
+  display: table-row;
+  height: 1px;
+  text-align:center;
 }
-.cloudsBottom {
-	position: relative;
-	top:5em;
-	height:50em;
-	background-image: url('cloudsBottom.png');
-	background-repeat: repeat-x;
-}
-.grassTop {
-	height: 3em;
-    bottom: 17em;
-    position: absolute;
-    width: 100%;
-    background-image: url('grassTop.png');
-    background-repeat: repeat-x;
-}
-.grassBottom {
-	height: 18em;
-    position: absolute;
-    width: 100%;
-    bottom:0;
-    background-image: url('grassBottom2.png');
-    background-repeat: repeat-x;
-}
-.grassTile {
-	position:absolute;
-	height:70px;
-	width:100%;
-	bottom:0;
-	background-image: url('grassTile.png');
-	background-repeat: repeat-x;
+
+#footer { height: 100%; }
+#footer-image{
+   position:fixed;
+   left:0px;
+   display:flex;
+   bottom:0px;
 }
