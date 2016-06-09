@@ -20,9 +20,10 @@ body {
   width: 100%;
 }
 
-.page-row {
+#header-title {
   display: table-row;
   height: 1px;
+  text-align:center;
 }
 
 .page-row-expanded { height: 100%; }
