@@ -6,7 +6,7 @@ body {
    background: #AFE4FF;
 }
 h1 {
-   font-family: Yikes;
+   font-family: 'Sansita One', cursive;
    font-size: 9em;
    color: white;
    text-shadow:
@@ -19,7 +19,7 @@ h1 {
    margin:0.5em;
 }
 h2 {
-   font-family: Yikes;
+   font-family: 'Sansita One', cursive;
    font-size: 4em;
    color: white;
    text-shadow:
@@ -33,7 +33,7 @@ h2 {
 }
 
 p{
-   font-family: Yikes;
+   font-family: 'Sansita One', cursive;
    font-size: 2em;
    color: white;
    text-shadow:
