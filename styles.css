@@ -16,7 +16,7 @@ h1 {
     1px 1px 0 #2D5A66,
     1px 6px 0 #2D5A66;
    text-align:center;
-   margin:0.5em;
+   margin:0.5em 0.5em 0.3em 0.5em;
 }
 h2 {
    font-family: 'Sansita One', cursive;
@@ -33,21 +33,43 @@ h2 {
 }
 
 p{
-   font-family: 'Sansita One', cursive;
-   font-size: 2em;
-   color: white;
-   text-shadow:
-   -0.7px -0.7px 0 #2D5A66,  
-    0.7px -0.7px 0 #2D5A66,
-    -0.7px 0.7px 0 #2D5A66,
-    0.7px 0.7px 0 #2D5A66,
-    0 3px 0 #2D5A66;
-   text-align:center;	
+  font-family: 'Sansita One', cursive;
+  font-size: 2em;
+  color: white;
+  text-shadow:
+  -0.7px -0.7px 0 #2D5A66,  
+  0.7px -0.7px 0 #2D5A66,
+  -0.7px 0.7px 0 #2D5A66,
+  0.7px 0.7px 0 #2D5A66,
+  0 3px 0 #2D5A66;
+}
+.p-center{
+  text-align:center;	
+}
+
+.p-left{
+  text-align:left; 
+  margin:0 1em 0.3em 1em; 
 }
 
 body {
   display: table;
   width: 100%;
+}
+
+.header{
+  font-family: 'Sansita One', cursive;
+  font-size: 3em;
+  color: white;
+  text-shadow:
+  -0.7px -0.7px 0 #2D5A66,  
+  0.7px -0.7px 0 #2D5A66,
+  -0.7px 0.7px 0 #2D5A66,
+  0.7px 0.7px 0 #2D5A66,
+  0 4px 0 #2D5A66;
+  margin:0.2em;
+  text-decoration:underline;
+  padding:0.1em 0.5em 0.1em 0.5em;
 }
 
 #header-title {
@@ -61,6 +83,13 @@ body {
 	z-index:8;
 	width:90%;
 	margin: 0 auto;
+}
+
+#privacy-policy{
+  position:relative;
+  z-index:8;
+  width:80%;
+  margin: 0 auto; 
 }
 
 @media only screen and (min-width: 2300px) {
